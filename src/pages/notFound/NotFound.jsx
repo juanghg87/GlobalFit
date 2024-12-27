@@ -1,11 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import "./notFound.scss"
+import Navbar from '../../components/Navbar/Navbar'
 
 const NotFound = () => {
   return (
     <div>
-      <section>
+      <Navbar />
+      {/* <section>
         <h1>
           NotFound
         </h1>
@@ -17,7 +19,7 @@ const NotFound = () => {
           <Link to="/contact">Contact</Link>
           <Link to="/services">Services</Link>
         </nav>
-      </section>
+      </section> */}
     </div>
   )
 }
