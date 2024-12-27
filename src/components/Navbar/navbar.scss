@@ -1,0 +1,84 @@
+// 000000 353536 69696b ec1b23 d76368
+@import "../../App.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+ 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: fixed;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 1px 10px 0 rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 15%;
+    margin-top: 0.45%;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @include tablet{
+        width: 90%;
+    }
+
+    @include mobile{
+        width: 100%;
+        height: 10%;
+    }
+
+    .imgContainer {
+        width: 50%;
+
+        .navImg {
+            width: 50%;
+            margin: 0 15%;
+
+            @include mobile{
+                display: none;
+            }
+        }
+
+        .nav-Img{
+            display: none;
+            
+            @include mobile{
+                display: block;
+                width: 30%;
+            }
+        }
+
+
+    }
+
+    .anchorContainer {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+
+        @include mobile{
+            display: none;
+        }
+
+
+        a {
+            word-wrap: no-wrap;
+            text-decoration: none;
+            color: #353536;
+            margin: 0 8px;
+            font-family: "Roboto Slab", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-size: 20px;
+
+            @include tablet{
+                font-size: 30px;
+            }
+        }
+    }
+
+
+}
