@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/GlobalFit/static/css/main.bb8e8626.css",
-    "main.js": "/GlobalFit/static/js/main.4efcdb7b.js",
+    "main.css": "/GlobalFit/static/css/main.782c8c83.css",
+    "main.js": "/GlobalFit/static/js/main.41b51b47.js",
     "static/js/488.026b1cf8.chunk.js": "/GlobalFit/static/js/488.026b1cf8.chunk.js",
+    "static/media/GlobalFit-logo.png": "/GlobalFit/static/media/GlobalFit-logo.4bbeec48c92b2edacb7b.png",
+    "static/media/globalfitlogo.png": "/GlobalFit/static/media/globalfitlogo.a012ba494ea94c7b4424.png",
     "index.html": "/GlobalFit/index.html",
-    "main.bb8e8626.css.map": "/GlobalFit/static/css/main.bb8e8626.css.map",
-    "main.4efcdb7b.js.map": "/GlobalFit/static/js/main.4efcdb7b.js.map",
+    "main.782c8c83.css.map": "/GlobalFit/static/css/main.782c8c83.css.map",
+    "main.41b51b47.js.map": "/GlobalFit/static/js/main.41b51b47.js.map",
     "488.026b1cf8.chunk.js.map": "/GlobalFit/static/js/488.026b1cf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb8e8626.css",
-    "static/js/main.4efcdb7b.js"
+    "static/css/main.782c8c83.css",
+    "static/js/main.41b51b47.js"
   ]
 }
