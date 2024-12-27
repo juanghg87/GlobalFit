@@ -35,11 +35,6 @@ const Navbar = () => {
                     <Link to="/services">Planes</Link>
                 </motion.a>
             </div>
-
-            {/* <Link to="/home">Home</Link> */}
-
-
-
             <ToggleMenu />
         </motion.nav>
     )
