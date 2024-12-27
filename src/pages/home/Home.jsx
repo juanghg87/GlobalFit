@@ -1,7 +1,7 @@
 import React from 'react'
 import "./home.scss"
 import Navbar from '../../components/Navbar/Navbar';
-// import Hero from '../../components/hero/Hero';
+import Hero from '../../components/hero/Hero';
 import ButtonFl from '../../components/buttonFl/ButtonFl';
 // import Slider from '../../components/slider/Slider';
 
@@ -10,10 +10,10 @@ const Home = () => {
         <>
             <ButtonFl />
             <Navbar />
-            {/* <section>
+            <section>
                 <Hero />
             </section>
-            <section>
+            {/* <section>
                 <Slider />
             </section> */}
 

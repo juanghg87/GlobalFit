@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import Home from "../pages/home/Home"
 import About from "../pages/about/About"
 import Contact from "../pages/contact/Contact"
@@ -13,12 +13,12 @@ const AnimatedRoutes = () => {
     return (
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
-                <Route index element={<Home />} />
-                <Route path='/home' element={<Home />} />
-                <Route path='/about' element={<About />} />
-                <Route path='/contact' element={<Contact />} />
-                <Route path='/services' element={<Services />} />
-                <Route path='*' element={<NotFound />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/services" element={<Services />} />
+                <Route path="*" element={<Home />} />
             </Routes>
         </AnimatePresence>
     )

@@ -2,24 +2,16 @@ import React from 'react'
 
 import "./notFound.scss"
 import Navbar from '../../components/Navbar/Navbar'
+import ButtonFl from '../../components/buttonFl/ButtonFl'
 
 const NotFound = () => {
   return (
     <div>
       <Navbar />
-      {/* <section>
-        <h1>
-          NotFound
-        </h1>
-      </section>
-      <section>
-        <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/services">Services</Link>
-        </nav>
-      </section> */}
+      <ButtonFl />
+      <h1>
+        page not found
+      </h1>
     </div>
   )
 }
