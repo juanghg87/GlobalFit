@@ -1,18 +1,27 @@
 {
   "files": {
-    "main.css": "/GlobalFit/static/css/main.87827c73.css",
-    "main.js": "/GlobalFit/static/js/main.8ecf1ded.js",
+    "main.css": "/GlobalFit/static/css/main.a45a764d.css",
+    "main.js": "/GlobalFit/static/js/main.3a0f57c0.js",
     "static/js/488.026b1cf8.chunk.js": "/GlobalFit/static/js/488.026b1cf8.chunk.js",
     "static/media/video-presentation.MP4": "/GlobalFit/static/media/video-presentation.b7956bebb17d27ecf32c.MP4",
+    "static/media/grupal.gif": "/GlobalFit/static/media/grupal.19aea5f874d9361b8469.gif",
+    "static/media/mayor.gif": "/GlobalFit/static/media/mayor.a8a179a73c590dd9f60a.gif",
+    "static/media/giphy.gif": "/GlobalFit/static/media/giphy.ab15dc8f9b616833da83.gif",
+    "static/media/deportivo.gif": "/GlobalFit/static/media/deportivo.8d513b7874641f05f2f1.gif",
+    "static/media/funcional.gif": "/GlobalFit/static/media/funcional.cbb26944e8d58dc34c77.gif",
     "static/media/GlobalFit-logo.png": "/GlobalFit/static/media/GlobalFit-logo.4bbeec48c92b2edacb7b.png",
     "static/media/globalfitlogo.png": "/GlobalFit/static/media/globalfitlogo.a012ba494ea94c7b4424.png",
+    "static/media/slick.svg": "/GlobalFit/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/GlobalFit/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/GlobalFit/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/GlobalFit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GlobalFit/index.html",
-    "main.87827c73.css.map": "/GlobalFit/static/css/main.87827c73.css.map",
-    "main.8ecf1ded.js.map": "/GlobalFit/static/js/main.8ecf1ded.js.map",
+    "main.a45a764d.css.map": "/GlobalFit/static/css/main.a45a764d.css.map",
+    "main.3a0f57c0.js.map": "/GlobalFit/static/js/main.3a0f57c0.js.map",
     "488.026b1cf8.chunk.js.map": "/GlobalFit/static/js/488.026b1cf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87827c73.css",
-    "static/js/main.8ecf1ded.js"
+    "static/css/main.a45a764d.css",
+    "static/js/main.3a0f57c0.js"
   ]
 }

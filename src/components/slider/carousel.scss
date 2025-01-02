@@ -1,0 +1,141 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "../../App.scss";
+
+.App {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    // background-color: aqua;
+}
+
+.slide img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin: 50px 0;
+    border-radius: 30px;
+    -webkit-box-shadow: 12px 12px 15px 5px #000000;
+    box-shadow: 12px 12px 15px 5px #000000;
+    cursor: grab;
+
+    @include tablet {
+        width: 300px;
+        height: 300px;
+        margin: 30px 0;
+    }
+
+    @include mobile {
+        width: 400px;
+        height: 400px;
+        margin: 20px 0;
+    }
+}
+
+.slider {
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-slider {
+    // width: 100px;
+    // background-color: blue;
+}
+
+.slide {
+    transform: scale(0.3);
+    transition: transform 300ms;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include tablet {
+        transform: scale(0.5);
+    }
+
+    @include mobile {
+        transform: scale(0.2);
+        width: 50px;
+        opacity: 0.1;
+    }
+}
+
+.activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+    
+
+    @include tablet {
+        transform: scale(1);
+    }
+
+    @include mobile {
+        // transform: scale(0.9);
+    }
+
+    
+}
+.slide .activeSlide img{
+    position: relative;
+    display: none;
+    margin-right: 100%;
+}
+
+.image-description {
+    width: 85%;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, transparent);
+    background: linear-gradient(to right, #000000, transparent);
+    font-size: 16px;
+
+    @include tablet {
+        font-size: 14px;
+        bottom: 15%;
+    }
+
+    @include mobile {
+        font-size: 12px;
+        bottom: 10%;
+    }
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+
+    @include tablet {
+        width: 25px;
+        height: 25px;
+    }
+
+    @include mobile {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.arrow svg {
+    transition: color 300ms;
+}
+
+.arrow svg:hover {
+    color: #68edff;
+}
+
+.next {
+    right: 0%;
+    top: 50%;
+}
+
+.prev {
+    left: 0%;
+    top: 50%;
+}
