@@ -29,18 +29,7 @@ const ContactForm = () => {
             <div className='containerContactForm' >
                 <h2 className='titleContactForm' >Contáctanos
                 </h2>
-                <div className='socialMedia' >
-                    <a href="https://wa.me/+573187474537" className='aSocialMedia' target='blank'>
-                        <IoLogoWhatsapp className='logoSocialMedia' />
-                        WhatsApp
-                        <img src="" alt="" />
-                    </a>
-                    <a href="https://www.instagram.com/lui.soto.17/?hl=es" className='aSocialMedia' target='blank' >
-                        Instagram
-                        <AiFillInstagram className='logoSocialMedia' />
-                        <img src="" alt="" />
-                    </a>
-                </div>
+                
                 <span className='span-logoPhone'>
                     <img src="" alt="" />
                     <FaPhoneAlt className='logoPhone' />
@@ -54,6 +43,18 @@ const ContactForm = () => {
                     {error && "Error"}
                     {success && "Success"} 
                 </form>
+                <div className='socialMedia' >
+                    <a href="https://wa.me/+573187474537" className='aSocialMedia' target='blank'>
+                        <IoLogoWhatsapp className='logoSocialMedia' />
+                        WhatsApp
+                        <img src="" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/lui.soto.17/?hl=es" className='aSocialMedia' target='blank' >
+                        Instagram
+                        <AiFillInstagram className='logoSocialMedia' />
+                        <img src="" alt="" />
+                    </a>
+                </div>
             </div>
         </div>
     )
