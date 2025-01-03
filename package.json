@@ -4,6 +4,7 @@
   "private": false,
   "homepage": "https://juanghg87.github.io/GlobalFit",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "cra-template": "1.2.0",
     "framer-motion": "^11.15.0",
     "globalfit-final": "file:",

@@ -4,7 +4,7 @@ import cross from "../../Assets/cross.png";
 import { motion } from "framer-motion";
 import wp from "../../Assets/wp.png";
 import ig from "../../Assets/ig.png";
-import { useState } from 'react';
+import { useState } from 'react'; 
 
 const variantButton = {
   initial: { rotate: 0 },
@@ -49,15 +49,15 @@ const ButtonFl = () => {
       >
         <img className='imgCross' src={cross} alt="" />
       </motion.div>
-      <div className='socialMedia'>
-        <a href="https://wa.me/+573187474537" target="_blank" tooltip="WhatsApp" rel="noopener noreferrer">
+      <div className='btn-socialMedia'>
+        <a href="https://wa.me/+573187474537" target="_blank" tooltip="WhatsApp" rel="noopener noreferrer" className='a-socialMedia'>
           <motion.img src={wp} className='wp' alt=""
             initial="initial"
             animate={useClick ? "animate" : "initial"}
             variants={wpButton}
           />
         </a>
-        <a href="https://www.instagram.com/lui.soto.17/?hl=es" tooltip="Instagram" rel="noopener noreferrer" target='_blank'>
+        <a href="https://www.instagram.com/lui.soto.17/?hl=es" tooltip="Instagram" rel="noopener noreferrer" target='_blank' className='a-socialMedia'>
           <motion.img src={ig} className='ig' alt=""
             initial="initial"
             animate={useClick ? "animate" : "initial"}

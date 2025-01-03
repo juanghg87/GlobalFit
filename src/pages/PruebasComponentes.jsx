@@ -1,10 +1,12 @@
 import React from 'react'
-import Carousel from '../components/slider/Carousel'
+import ContactVideo from '../components/contactvideo/ContactVideo'
+import ContactForm from '../components/contactForm/ContactForm'
 
 const PruebasComponentes = () => {
   return (
     <div>
-        <Carousel />
+        <ContactVideo />
+        <ContactForm />
     </div>
   )
 }
