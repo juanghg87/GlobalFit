@@ -8,13 +8,29 @@ import gif3 from '../../Assets/funcional.gif';
 import gif4 from '../../Assets/grupal.gif';
 import gif5 from '../../Assets/mayor.gif';
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { title } from 'framer-motion/client';
 
 const images = [
-    { src: gif1, description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime molestias qui quis sed a obcaecati distinctio aut nesciunt ab autem?" },
-    { src: gif2, description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime molestias qui quis sed a obcaecati distinctio aut nesciunt ab autem?" },
-    { src: gif3, description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime molestias qui quis sed a obcaecati distinctio aut nesciunt ab autem?" },
-    { src: gif4, description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime molestias qui quis sed a obcaecati distinctio aut nesciunt ab autem?" },
-    { src: gif5, description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime molestias qui quis sed a obcaecati distinctio aut nesciunt ab autem?" },
+    { src: 
+        gif1, 
+        title: "Iniciación" ,
+        description: "La iniciación deportiva fomenta habilidades motoras, socialización, disciplina y autoestima, promoviendo un estilo de vida activo y saludable desde temprana edad." },
+    { src: 
+        gif2, 
+        title: "Entrenamiento Competitivo" ,
+        description: "El entrenamiento para competiciones mejora habilidades específicas, aumenta la confianza, fomenta la disciplina y prepara a los atletas para enfrentar desafíos." },
+    { src: 
+        gif3, 
+        title: "Entrenamiento Funcional" ,
+        description: "El entrenamiento funcional no competitivo mejora la movilidad, fuerza y resistencia, promoviendo un estilo de vida saludable y previniendo lesiones cotidianas." },
+    { src: 
+        gif4, 
+        title: "Entrenamiento Grupal" ,
+        description: "El entrenamiento grupal fomenta la motivación, el apoyo social y la camaradería, lo que mejora el compromiso y la adherencia al ejercicio." },
+    { src: 
+        gif5, 
+        title: "Entrenamiento Senior" ,
+        description: "El entrenamiento para adultos mayores mejora la movilidad, fuerza y equilibrio, reduciendo el riesgo de caídas y promoviendo una vida independiente y saludable." },
 ];
 
 function Carousel() {
@@ -54,6 +70,7 @@ function Carousel() {
                 {images.map((img, idx) => (
                     <div key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
                         <img src={img.src} alt={img.description} className='active-img'/>
+                        <h2 alt={img.description} className='carousel-title'>{img.title}</h2>
                         <span className="image-description">{img.description}</span>
                     </div>
                 ))}

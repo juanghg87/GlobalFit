@@ -1,12 +1,10 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import "../../App.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 .App {
-    // max-width: 100%;
-    // margin: auto;
-    height: 100vh;
-    // background-color: aqua;  
+    height: 100vh; 
 }
 
 
@@ -106,6 +104,16 @@
         border-radius: 20px;
         padding: 30px;
     }
+}
+
+.carousel-title{
+    position: relative;
+    left: -80px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5%;
+    font-family: "Roboto Slab", serif;
+    width: 300px;
 }
 
 .arrow {
