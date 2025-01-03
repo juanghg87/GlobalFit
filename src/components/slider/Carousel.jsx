@@ -53,7 +53,7 @@ function Carousel() {
             <Slider {...settings} className='slider'>
                 {images.map((img, idx) => (
                     <div key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-                        <img src={img.src} alt={img.description} />
+                        <img src={img.src} alt={img.description} className='active-img'/>
                         <span className="image-description">{img.description}</span>
                     </div>
                 ))}
