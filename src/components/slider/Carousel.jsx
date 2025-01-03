@@ -8,7 +8,6 @@ import gif3 from '../../Assets/funcional.gif';
 import gif4 from '../../Assets/grupal.gif';
 import gif5 from '../../Assets/mayor.gif';
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-import { title } from 'framer-motion/client';
 
 const images = [
     { src: 
@@ -66,6 +65,7 @@ function Carousel() {
 
     return (
         <div className="App">
+            <div className='background-design'></div>
             <Slider {...settings} className='slider'>
                 {images.map((img, idx) => (
                     <div key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
