@@ -17,133 +17,46 @@ import opinion2 from '../../Assets/opinion2.PNG';
 const Gallery = () => {
 
     let images = [
-        {
-            id: 1,
-            src: gif1,
-        },
-        {
-            id: 7,
-            src: opinion1,
-        },
-        {
-            id: 6,
-            src: mayor,
-        },
-        {
-            id: 2,
-            src: estimulacion,
-        },
-        {
-            id: 3,
-            src: gif3,
-        },
-        {
-            id: 4,
-            src: grupal,
-        },
-        {
-            id: 12,
-            src: gif2,
-        },
-        {
-            id: 9,
-            src: opinion3.PNG,
-        },
-        {
-            id: 10,
-            src: globalFit.gif,
-        },
-        {
-            id: 11,
-            src: funcional.gif,
-        },
-        {
-            id: 8,
-            src: opinion2.PNG,
-        },
-
-    ]
+        { id: 1, src: gif1 },
+        { id: 7, src: opinion1 },
+        { id: 6, src: mayor },
+        { id: 2, src: estimulacion },
+        { id: 4, src: grupal },
+        { id: 12, src: gif2 },
+        { id: 9, src: opinion3 },
+        { id: 10, src: globalFit },
+        { id: 11, src: funcional },
+        { id: 8, src: opinion2 },
+    ];
 
     const [model, setModel] = useState(false);
-    const [temingSrc, setTempSrc] = useState('');
-    const getImg = (src) => {
-        setTempSrc(src);
-        setModel(true);
-    }
-    const container = {
-        hidden: { opacity: 1, scale: 0 },
-        visible: {
-            opacity: 1,
-            scale: 1,
-            transition: {
-                delayChildren: 0.3,
-                staggerChildren: 0.2
-            }
-        }
-    };
+    const [tempSrc, setTempSrc] = useState('');
 
-    const items = {
-        hidden: { y: 20, opacity: 0 },
-        visible: {
-            y: 0,
-            opacity: 1
-        }
+    const getImg = (src) => {
+        setTempSrc(src); // Guarda la imagen seleccionada
+        setModel(true); // Abre el modal
     };
 
     return (
-        <secton className='gallery-container'>
+        <section className='gallery-container'>
             <main className='layout'>
-                {/* <motion.div className={model ? "model open" : "model"} >
-                    <img src={temingSrc} alt="" />
+                <motion.div className={model ? "model open" : "model"}>
+                    <img src={tempSrc} alt="" />
                     <GrClose onClick={() => setModel(false)} />
-                </motion.div> */}
-                {/* <motion.div  variants={container} >
-                    {images.map((item, index) => {
-                        return (
-                            <motion.div
-                                key={index}
-                                onClick={() => getImg(item.src)}
-                            >
-                                <img src={item.src} alt="" variants={items} />
-                            </motion.div>
-                        )
-                    })}
-                </motion.div> */}
-                <div className='img-container'>
-                    <img src={gif1} alt="" className='img-gallery' />
-                </div>
-                <div className='img-container'>
-                    <img src={gif2} alt="" className='img-gallery' />
-                </div>
-                <div className='img-container'>
-                    <img src={grupal} alt="" className='img-gallery' />
-                </div>
-                <div className='img-container'>
-                    <img src={opinion1} alt="" className='img-gallery' />
-                </div>
-                <div className='img-container'>
-                    <img src={mayor} alt="" className='img-gallery' />
-                </div>
-                <div className='img-container'>
-                    <img src={opinion3} alt="" className='img-gallery' />
-                </div>
-                <div className='img-container'>
-                    <img src={globalFit} alt="" className='img-gallery' />
-                </div>
-                <div className='img-container'>
-                    <img src={funcional} alt="" className='img-gallery' />
-                </div>
-                <div className='img-container'>
-                    <img src={opinion2} alt="" className='img-gallery' />
-                </div>
-                <div className='img-container'>
-                    <img src={estimulacion} alt="" className='img-gallery' />
-                </div>
+                </motion.div>
 
+                {images.map((image) => (
+                    <motion.div
+                        className='img-container'
+                        key={image.id}
+                        onClick={() => getImg(image.src)} 
+                    >
+                        <img src={image.src} alt="" className='img-gallery' />
+                    </motion.div>
+                ))}
             </main>
-        </secton>
+        </section>
+    );
+};
 
-    )
-}
-
-export default Gallery
+export default Gallery;
