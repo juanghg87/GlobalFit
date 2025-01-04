@@ -40,8 +40,8 @@ const ContactForm = () => {
                     <input type="email" required placeholder='Correo' name='email' />
                     <textarea rows={5} placeholder='Mensaje' name='message' />
                     <button>Enviar</button>
-                    {error && "Error"}
-                    {success && "Success"} 
+                    {error && "Hubo un error, ¡contáctame por WhatsApp!"}
+                    {success && "¡Gracias por contactarnos!"} 
                 </form>
                 <div className='socialMedia' >
                     <a href="https://wa.me/+573187474537" className='aSocialMedia' target='blank'>

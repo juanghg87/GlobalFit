@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Hero from '../../components/hero/Hero';
 import ButtonFl from '../../components/buttonFl/ButtonFl';
 import Carousel from '../../components/slider/Carousel';
+import Gallery from '../../components/gallery/Gallery';
 
 const Home = () => {
     return (
@@ -15,6 +16,9 @@ const Home = () => {
             </section>
             <section>
                 <Carousel />
+            </section>
+            <section>
+                <Gallery />
             </section>
         </>
 

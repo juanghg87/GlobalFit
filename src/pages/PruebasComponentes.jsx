@@ -1,12 +1,13 @@
 import React from 'react'
-import ContactVideo from '../components/contactvideo/ContactVideo'
-import ContactForm from '../components/contactForm/ContactForm'
+import "../components/gallery/Gallery"
+import Gallery from '../components/gallery/Gallery'
+import Navbar from "../components/Navbar/Navbar"
 
 const PruebasComponentes = () => {
   return (
     <div>
-        <ContactVideo />
-        <ContactForm />
+      <Navbar />
+      <Gallery />
     </div>
   )
 }

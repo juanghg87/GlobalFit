@@ -1,10 +1,9 @@
 import React from 'react'
-import { Routes, Route, useLocation, Navigate } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "../pages/home/Home"
 import About from "../pages/about/About"
 import Contact from "../pages/contact/Contact"
 import Services from "../pages/services/Services"
-// import NotFound from "../pages/notFound/NotFound"
 import { AnimatePresence } from 'framer-motion';
 import PruebasComponentes from "../pages/PruebasComponentes"
 
