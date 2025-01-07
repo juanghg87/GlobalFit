@@ -4,7 +4,6 @@ import { GrClose } from "react-icons/gr";
 import { motion } from 'framer-motion';
 import gif1 from '../../Assets/giphy.gif';
 import gif2 from '../../Assets/deportivo.gif';
-import gif3 from '../../Assets/funcional.gif';
 import mayor from '../../Assets/mayor.gif';
 import opinion1 from '../../Assets/opinion1.PNG';
 import estimulacion from '../../Assets/estimulacion.gif';
@@ -33,8 +32,8 @@ const Gallery = () => {
     const [tempSrc, setTempSrc] = useState('');
 
     const getImg = (src) => {
-        setTempSrc(src); // Guarda la imagen seleccionada
-        setModel(true); // Abre el modal
+        setTempSrc(src); 
+        setModel(true); 
     };
 
     return (
