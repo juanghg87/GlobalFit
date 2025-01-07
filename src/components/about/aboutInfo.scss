@@ -131,6 +131,7 @@
 
                 @include mobile{
                     font-size: 14px;
+                    height: 50%;
                 }
 
                 &::after {
@@ -148,6 +149,10 @@
                     transition: .2s transform ease-out;
                     will-change: transform;
                     z-index: -1;
+
+                    @include mobile{
+                        
+                    }
                 }
 
                 &:hover::after {
