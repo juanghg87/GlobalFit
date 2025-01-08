@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GlobalFit/static/css/main.2e3d583b.css",
-    "main.js": "/GlobalFit/static/js/main.5815f5c4.js",
+    "main.css": "/GlobalFit/static/css/main.92edf932.css",
+    "main.js": "/GlobalFit/static/js/main.d35ff34b.js",
     "static/js/488.026b1cf8.chunk.js": "/GlobalFit/static/js/488.026b1cf8.chunk.js",
     "static/media/video-presentation.MP4": "/GlobalFit/static/media/video-presentation.b7956bebb17d27ecf32c.MP4",
     "static/media/backgroundContacUs.mp4": "/GlobalFit/static/media/backgroundContacUs.d6ab75742a56f2d1a62e.mp4",
@@ -22,12 +22,12 @@
     "static/media/slick.ttf": "/GlobalFit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/GlobalFit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GlobalFit/index.html",
-    "main.2e3d583b.css.map": "/GlobalFit/static/css/main.2e3d583b.css.map",
-    "main.5815f5c4.js.map": "/GlobalFit/static/js/main.5815f5c4.js.map",
+    "main.92edf932.css.map": "/GlobalFit/static/css/main.92edf932.css.map",
+    "main.d35ff34b.js.map": "/GlobalFit/static/js/main.d35ff34b.js.map",
     "488.026b1cf8.chunk.js.map": "/GlobalFit/static/js/488.026b1cf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e3d583b.css",
-    "static/js/main.5815f5c4.js"
+    "static/css/main.92edf932.css",
+    "static/js/main.d35ff34b.js"
   ]
 }
