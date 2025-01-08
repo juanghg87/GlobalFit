@@ -22,8 +22,8 @@ const info = [
     {
         id: 3,
         src: gif3,
-        title: "Entrenadora en Deportiva y Competitiva",
-        info: "Soy una entrenadora deportiva con más de 5 años de experiencia en entrenamiento funcional, grupal y rehabilitación. Apasionada por ayudar a otros a alcanzar sus metas, me especializo en trabajar con adultos mayores y personas en recuperación de lesiones deportivas, siempre promoviendo salud, confianza y un enfoque positivo.",
+        title: "Entrenadora Deportiva y Competitiva",
+        info: "Entrenadora deportiva con más de 5 años de experiencia en entrenamiento funcional, grupal y rehabilitación. Apasionada por ayudar a otros a alcanzar sus metas, amo trabajar con adultos mayores y personas en recuperación de lesiones deportivas, siempre promoviendo salud, confianza y un enfoque positivo.",
 
     },
     {

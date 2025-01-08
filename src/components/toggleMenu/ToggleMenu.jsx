@@ -13,7 +13,7 @@ const ToggleMenu = () => {
         setIsVisible(!isVisible);
     };
 
-    return (
+    return ( 
         <div>
             <img
                 src={menu}
@@ -23,7 +23,7 @@ const ToggleMenu = () => {
             />
             <div
                 className='toggleContainer'
-                style={{ opacity: isVisible ? 1 : 0, transition: 'opacity 0.3s ease' }}
+                style={{ display: isVisible ? "block" : "none", transition: 'opacity 0.3s ease' }}
             >
                 <div className='img-container'>
                     <img className='img-menu' src={personal} alt="" />

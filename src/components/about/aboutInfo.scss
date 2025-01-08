@@ -9,7 +9,7 @@
     align-items: end;
     justify-content: center;
 
-    @include mobile{
+    @include mobile {
         width: 100vw;
     }
 
@@ -20,20 +20,23 @@
         padding: 1%;
 
 
-        @include mobile{
+        @include mobile {
             width: 100%;
             padding: 0;
         }
 
         .info-img-container {
             display: flex;
-            width: 80vw;
+            // width: 80vw;
             align-items: center;
             justify-content: center;
+            margin: 0;
+            padding: 0;
 
 
-            @include tablet{
+            @include tablet {
                 flex-direction: column;
+                width: 80vw;
             }
 
             @include mobile {
@@ -41,18 +44,23 @@
                 // width: 100%;
             }
 
+            .img-container-about{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
             .img-selected {
                 // background-color: beige;
-                width: 50vw;
+                width: 30vw;
                 height: 100%;
                 object-fit: cover;
                 border-radius: 30px;
                 -webkit-box-shadow: 0px 5px 15px 0px #000000;
                 box-shadow: 0px 5px 15px 0px #000000;
 
-                .img-container-about img {
-                    width: 100%;
-                    height: 100%;
+                @include mobile{
+                    width: 90%;
                 }
             }
 
@@ -66,7 +74,7 @@
                 align-items: center;
                 justify-content: center;
 
-                @include mobile{
+                @include mobile {
                     width: 80%;
                 }
 
@@ -80,7 +88,7 @@
                 .title-about {
                     font-weight: normal;
 
-                    @include mobile{
+                    @include mobile {
                         font-size: 24px;
                     }
                 }
@@ -90,7 +98,7 @@
                     padding: 5%;
                     font-size: 18px;
 
-                    @include mobile{
+                    @include mobile {
                         padding: 0;
                         font-size: 15px;
                     }
@@ -108,13 +116,13 @@
             text-align: center;
             align-items: center;
 
-            @include mobile{
+            @include mobile {
                 width: 30vw;
             }
 
             .btn-about {
                 width: 100%;
-                height: 80%;
+                height: 60%;
                 font-size: 20px;
                 border: none;
                 border-bottom: 0.5px solid #a33b4060;
@@ -129,14 +137,15 @@
                 will-change: transform;
                 z-index: 0;
 
-                @include mobile{
+                @include mobile {
                     font-size: 14px;
                     height: 50%;
                 }
 
                 &::after {
-                    background-color: rgb(248, 49, 222);
-                    border-radius: 3rem;
+                    background-color: #a33b40d2;
+                    // border: 1px solid rgba(255, 0, 0, 0.664);
+                    border-radius: 3.5rem;
                     content: '';
                     display: block;
                     height: 100%;
@@ -150,9 +159,7 @@
                     will-change: transform;
                     z-index: -1;
 
-                    @include mobile{
-                        
-                    }
+                    @include mobile {}
                 }
 
                 &:hover::after {
