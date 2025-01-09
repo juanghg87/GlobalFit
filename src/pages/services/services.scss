@@ -1,0 +1,74 @@
+@import "../../App.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+.services-container{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    top: 10%;
+    display: flex;
+
+    @include mobile{
+        flex-direction: column;
+    }
+
+    .services-description{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2%;
+
+        @include mobile{
+            width: 100%;
+            padding: 0;
+        }
+
+        .title-services{
+            font-size: 30px;
+            font-family: "Roboto Slab", serif;
+            text-align: center;
+        }
+
+        .paragraph-services{
+            text-align: justify;
+            font-size: 18px;
+
+            @include mobile{
+                padding: 0 2%;
+            }
+        }
+    }
+
+    .video-container{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        gap: 5px;
+
+        @include mobile{
+            width: 100%;
+        }
+
+        .video-services{
+            flex: 1;
+
+            .video-services-individual{
+                object-fit: cover;
+                width: 100%;
+                height: 95%;
+                border-radius: 10px;
+                position: relative;
+                top: 4%;
+            }
+        }
+
+        .video-services:hover{
+            flex: 8;
+            transition: 0.8s all ease;
+        }
+    }    
+}

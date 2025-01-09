@@ -25,13 +25,13 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className='anchorContainer'>
-                <motion.a whileHover={{ scale: 1.2, color: "#ff0000", fontWeight: "bolder" }} >
+                <motion.a whileHover={{ scale: 1.2, color: "#ffffff", fontWeight: "bolder" }} >
                     <Link to="/contact">Contáctame</Link>
                 </motion.a>
-                <motion.a href="" whileHover={{ scale: 1.2, color: "#ff0000", fontWeight: "bolder" }} >
+                <motion.a href="" whileHover={{ scale: 1.2, color: "#ffffff", fontWeight: "bolder" }} >
                     <Link to="/about">Sobre mi</Link>
                 </motion.a>
-                <motion.a href="" whileHover={{ scale: 1.2, color: "#ff0000", fontWeight: "bolder" }} >
+                <motion.a href="" whileHover={{ scale: 1.2, color: "#ffffff", fontWeight: "bolder" }} >
                     <Link to="/services">Planes</Link>
                 </motion.a>
             </div>

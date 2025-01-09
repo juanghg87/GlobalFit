@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GlobalFit/static/css/main.92edf932.css",
-    "main.js": "/GlobalFit/static/js/main.d35ff34b.js",
+    "main.css": "/GlobalFit/static/css/main.4a9b1428.css",
+    "main.js": "/GlobalFit/static/js/main.a1b9881e.js",
     "static/js/488.026b1cf8.chunk.js": "/GlobalFit/static/js/488.026b1cf8.chunk.js",
     "static/media/video-presentation.MP4": "/GlobalFit/static/media/video-presentation.b7956bebb17d27ecf32c.MP4",
     "static/media/backgroundContacUs.mp4": "/GlobalFit/static/media/backgroundContacUs.d6ab75742a56f2d1a62e.mp4",
@@ -9,6 +9,7 @@
     "static/media/mayor.gif": "/GlobalFit/static/media/mayor.a8a179a73c590dd9f60a.gif",
     "static/media/estimulacion.gif": "/GlobalFit/static/media/estimulacion.de234d6d0a76d416057b.gif",
     "static/media/globalFit.gif": "/GlobalFit/static/media/globalFit.bd1b8563603cc5c81185.gif",
+    "static/media/gif1.gif": "/GlobalFit/static/media/gif1.367ee24b8dcab89c5e7c.gif",
     "static/media/giphy.gif": "/GlobalFit/static/media/giphy.ab15dc8f9b616833da83.gif",
     "static/media/deportivo.gif": "/GlobalFit/static/media/deportivo.8d513b7874641f05f2f1.gif",
     "static/media/funcional.gif": "/GlobalFit/static/media/funcional.cbb26944e8d58dc34c77.gif",
@@ -22,12 +23,12 @@
     "static/media/slick.ttf": "/GlobalFit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/GlobalFit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GlobalFit/index.html",
-    "main.92edf932.css.map": "/GlobalFit/static/css/main.92edf932.css.map",
-    "main.d35ff34b.js.map": "/GlobalFit/static/js/main.d35ff34b.js.map",
+    "main.4a9b1428.css.map": "/GlobalFit/static/css/main.4a9b1428.css.map",
+    "main.a1b9881e.js.map": "/GlobalFit/static/js/main.a1b9881e.js.map",
     "488.026b1cf8.chunk.js.map": "/GlobalFit/static/js/488.026b1cf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92edf932.css",
-    "static/js/main.d35ff34b.js"
+    "static/css/main.4a9b1428.css",
+    "static/js/main.a1b9881e.js"
   ]
 }

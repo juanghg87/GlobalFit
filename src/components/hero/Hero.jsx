@@ -8,7 +8,7 @@ const videoVariants = {
   animate: { scale: 1, transition: { duration: 3 } } 
 };
 
-const wordVariants = {
+const wordVariants = { 
   hidden: { opacity: 0 },
   visible: (i) => ({
     opacity: 1,
