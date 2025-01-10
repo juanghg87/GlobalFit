@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 .menu-img {
-    cursor: pointer;
+    cursor: pointer; 
     width: 40px;
 
     @include desktop {
@@ -21,7 +21,7 @@
 .toggleContainer {
     position: absolute;
     width: 80%;
-    height: 200px;
+    height: 210px;
     background-color: #353536;
     left: 50%;
     transform: translateX(-50%);
@@ -34,6 +34,7 @@
     -webkit-box-shadow: 0px 33px 39px 11px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: 0px 33px 39px 11px rgba(0, 0, 0, 0.7);
 
+
     @include desktop {
         display: none;
     }
@@ -43,10 +44,7 @@
     }
 
     @include mobile {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        display: block;
     }
 
     .img-container {
