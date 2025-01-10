@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import { motion } from 'framer-motion';
 import gif1 from "../../Assets/gif1.gif";
 import video from "../../Assets/video-presentation.MP4";
+import video2 from "../../Assets/ser-iniciacion-1.mp4";
 
 
 const Services = () => {
@@ -25,7 +26,12 @@ const Services = () => {
           </aside>
           <aside className='video-container'>
             <div className="video-services">
-              <img src={gif1} alt="" className='video-services-individual' />
+              <video
+                src={video2} className='video-services-individual'
+                autoPlay
+                loop
+                muted
+              ></video>
             </div>
             <div className="video-services">
               <video
@@ -43,7 +49,12 @@ const Services = () => {
 
           <aside className='video-container'>
             <div className="video-services">
-              <img src={gif1} alt="" className='video-services-individual' />
+              <video
+                src={video2} className='video-services-individual'
+                autoPlay
+                loop
+                muted
+              ></video>
             </div>
             <div className="video-services">
               <video
@@ -76,7 +87,12 @@ const Services = () => {
           </aside>
           <aside className='video-container'>
             <div className="video-services">
-              <img src={gif1} alt="" className='video-services-individual' />
+              <video
+                src={video2} className='video-services-individual'
+                autoPlay
+                loop
+                muted
+              ></video>
             </div>
             <div className="video-services">
               <video
@@ -94,7 +110,12 @@ const Services = () => {
 
           <aside className='video-container'>
             <div className="video-services">
-              <img src={gif1} alt="" className='video-services-individual' />
+              <video
+                src={video2} className='video-services-individual'
+                autoPlay
+                loop
+                muted
+              ></video>
             </div>
             <div className="video-services">
               <video
@@ -127,7 +148,12 @@ const Services = () => {
           </aside>
           <aside className='video-container'>
             <div className="video-services">
-              <img src={gif1} alt="" className='video-services-individual' />
+              <video
+                src={video2} className='video-services-individual'
+                autoPlay
+                loop
+                muted
+              ></video>
             </div>
             <div className="video-services">
               <video
