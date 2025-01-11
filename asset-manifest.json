@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GlobalFit/static/css/main.6d25ec73.css",
-    "main.js": "/GlobalFit/static/js/main.a318ae64.js",
+    "main.js": "/GlobalFit/static/js/main.cd5ecce9.js",
     "static/js/488.c4112bf5.chunk.js": "/GlobalFit/static/js/488.c4112bf5.chunk.js",
     "static/media/video-presentation.MP4": "/GlobalFit/static/media/video-presentation.b7956bebb17d27ecf32c.MP4",
     "static/media/ser-competition2.mp4": "/GlobalFit/static/media/ser-competition2.800ad6bd4fa914d230a5.mp4",
@@ -32,11 +32,11 @@
     "static/media/slick.woff": "/GlobalFit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GlobalFit/index.html",
     "main.6d25ec73.css.map": "/GlobalFit/static/css/main.6d25ec73.css.map",
-    "main.a318ae64.js.map": "/GlobalFit/static/js/main.a318ae64.js.map",
+    "main.cd5ecce9.js.map": "/GlobalFit/static/js/main.cd5ecce9.js.map",
     "488.c4112bf5.chunk.js.map": "/GlobalFit/static/js/488.c4112bf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d25ec73.css",
-    "static/js/main.a318ae64.js"
+    "static/js/main.cd5ecce9.js"
   ]
 }
