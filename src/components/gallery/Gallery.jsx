@@ -5,27 +5,27 @@ import { motion } from 'framer-motion';
 import gif1 from '../../Assets/giphy.gif';
 import gif2 from '../../Assets/deportivo.gif';
 import mayor from '../../Assets/mayor.gif';
-import opinion1 from '../../Assets/opinion1.PNG';
+import gifgallery1 from '../../Assets/gif-gallery-1.gif';
+import gifgallery2 from '../../Assets/gif-gallery-2.gif';
+import gifgallery3 from '../../Assets/gif-gallery-3.gif';
 import estimulacion from '../../Assets/estimulacion.gif';
 import grupal from '../../Assets/grupal.gif';
-import opinion3 from '../../Assets/opinion3.PNG';
 import globalFit from '../../Assets/globalFit.gif';
 import funcional from '../../Assets/funcional.gif';
-import opinion2 from '../../Assets/opinion2.PNG';
 
 const Gallery = () => {
 
     let images = [
         { id: 1, src: gif1 },
-        { id: 7, src: opinion1 },
+        { id: 7, src: gifgallery1 },
         { id: 6, src: mayor },
         { id: 2, src: estimulacion },
         { id: 4, src: grupal },
         { id: 12, src: gif2 },
-        { id: 9, src: opinion3 },
+        { id: 9, src: gifgallery2 },
         { id: 10, src: globalFit },
         { id: 11, src: funcional },
-        { id: 8, src: opinion2 },
+        { id: 8, src: gifgallery3 },
     ];
 
     const [model, setModel] = useState(false);
