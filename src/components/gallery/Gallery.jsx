@@ -41,7 +41,7 @@ const Gallery = () => {
             <main className='layout'>
                 <motion.div className={model ? "model open" : "model"}>
                     <img src={tempSrc} alt="" />
-                    <GrClose onClick={() => setModel(false)} />
+                    <GrClose onClick={() => setModel(false)} className='img-model'/>
                 </motion.div>
 
                 {images.map((image) => (

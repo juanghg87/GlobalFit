@@ -2,10 +2,18 @@ import React from 'react'
 import "./services.scss"
 import ButtonFl from '../../components/buttonFl/ButtonFl'
 import Navbar from '../../components/Navbar/Navbar'
-import { motion } from 'framer-motion';
-import gif1 from "../../Assets/gif1.gif";
 import video from "../../Assets/video-presentation.MP4";
 import video2 from "../../Assets/ser-iniciacion-1.mp4";
+import video3 from "../../Assets/ser-competition.mp4";
+import video4 from "../../Assets/ser-competition2.mp4";
+import video5 from "../../Assets/ser-functional1.mp4";
+import video6 from "../../Assets/ser-functional2.mp4";
+import video9 from "../../Assets/ser-senior1.mp4";
+import video10 from "../../Assets/ser-senior2.mp4";
+import video7 from "../../Assets/ser-group1.mp4";
+import video8 from "../../Assets/ser-group2.mp4";
+
+
 
 
 const Services = () => {
@@ -31,6 +39,8 @@ const Services = () => {
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
             <div className="video-services">
@@ -39,6 +49,8 @@ const Services = () => {
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
           </aside>
@@ -50,18 +62,22 @@ const Services = () => {
           <aside className='video-container'>
             <div className="video-services">
               <video
-                src={video2} className='video-services-individual'
+                src={video3} className='video-services-individual'
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
             <div className="video-services">
               <video
-                src={video} className='video-services-individual'
+                src={video4} className='video-services-individual'
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
           </aside>
@@ -88,18 +104,22 @@ const Services = () => {
           <aside className='video-container'>
             <div className="video-services">
               <video
-                src={video2} className='video-services-individual'
+                src={video5} className='video-services-individual'
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
             <div className="video-services">
               <video
-                src={video} className='video-services-individual'
+                src={video6} className='video-services-individual'
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
           </aside>
@@ -111,18 +131,22 @@ const Services = () => {
           <aside className='video-container'>
             <div className="video-services">
               <video
-                src={video2} className='video-services-individual'
+                src={video7} className='video-services-individual'
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
             <div className="video-services">
               <video
-                src={video} className='video-services-individual'
+                src={video8} className='video-services-individual'
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
           </aside>
@@ -149,18 +173,22 @@ const Services = () => {
           <aside className='video-container'>
             <div className="video-services">
               <video
-                src={video2} className='video-services-individual'
+                src={video9} className='video-services-individual'
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
             <div className="video-services">
               <video
-                src={video} className='video-services-individual'
+                src={video10} className='video-services-individual'
                 autoPlay
                 loop
                 muted
+                preload="auto"
+                playsInline
               ></video>
             </div>
           </aside>
