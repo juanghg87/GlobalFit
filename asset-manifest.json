@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GlobalFit/static/css/main.6d25ec73.css",
-    "main.js": "/GlobalFit/static/js/main.8e84390c.js",
+    "main.css": "/GlobalFit/static/css/main.32dcaa70.css",
+    "main.js": "/GlobalFit/static/js/main.2b3ca86b.js",
     "static/js/488.c4112bf5.chunk.js": "/GlobalFit/static/js/488.c4112bf5.chunk.js",
     "static/media/video-presentation.MP4": "/GlobalFit/static/media/video-presentation.b7956bebb17d27ecf32c.MP4",
     "static/media/ser-competition2.mp4": "/GlobalFit/static/media/ser-competition2.800ad6bd4fa914d230a5.mp4",
@@ -18,13 +18,16 @@
     "static/media/gif-gallery-1.gif": "/GlobalFit/static/media/gif-gallery-1.379a216f5cadcd436bf1.gif",
     "static/media/funcional.gif": "/GlobalFit/static/media/funcional.8aa838e6c8f96d83ab5f.gif",
     "static/media/deportivo.gif": "/GlobalFit/static/media/deportivo.ad5f2171694315a947f8.gif",
-    "static/media/diving.jpg": "/GlobalFit/static/media/diving.4c1647fa3fb4d2a9cbf1.jpg",
+    "static/media/about-deportista.mp4": "/GlobalFit/static/media/about-deportista.a7dd8da33770876de969.mp4",
     "static/media/estimulacion.gif": "/GlobalFit/static/media/estimulacion.de234d6d0a76d416057b.gif",
     "static/media/globalFit.gif": "/GlobalFit/static/media/globalFit.bd1b8563603cc5c81185.gif",
     "static/media/grupal.gif": "/GlobalFit/static/media/grupal.fa30914b5a436990187f.gif",
     "static/media/gif-gallery-2.gif": "/GlobalFit/static/media/gif-gallery-2.e2d277152157cf6ccaa8.gif",
     "static/media/gif-gallery-3.gif": "/GlobalFit/static/media/gif-gallery-3.367ee24b8dcab89c5e7c.gif",
     "static/media/mayor.gif": "/GlobalFit/static/media/mayor.825ed926ca1598679003.gif",
+    "static/media/about-petlover.mp4": "/GlobalFit/static/media/about-petlover.71bf92e52dc8c9e76689.mp4",
+    "static/media/about-entrenadora.mp4": "/GlobalFit/static/media/about-entrenadora.6a5e9945ff23db508dde.mp4",
+    "static/media/about-profesora.mp4": "/GlobalFit/static/media/about-profesora.a2de5daabfb98b44eada.mp4",
     "static/media/GlobalFit-logo.png": "/GlobalFit/static/media/GlobalFit-logo.4bbeec48c92b2edacb7b.png",
     "static/media/globalfitlogo.png": "/GlobalFit/static/media/globalfitlogo.a012ba494ea94c7b4424.png",
     "static/media/slick.svg": "/GlobalFit/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -32,12 +35,12 @@
     "static/media/slick.ttf": "/GlobalFit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/GlobalFit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GlobalFit/index.html",
-    "main.6d25ec73.css.map": "/GlobalFit/static/css/main.6d25ec73.css.map",
-    "main.8e84390c.js.map": "/GlobalFit/static/js/main.8e84390c.js.map",
+    "main.32dcaa70.css.map": "/GlobalFit/static/css/main.32dcaa70.css.map",
+    "main.2b3ca86b.js.map": "/GlobalFit/static/js/main.2b3ca86b.js.map",
     "488.c4112bf5.chunk.js.map": "/GlobalFit/static/js/488.c4112bf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d25ec73.css",
-    "static/js/main.8e84390c.js"
+    "static/css/main.32dcaa70.css",
+    "static/js/main.2b3ca86b.js"
   ]
 }
