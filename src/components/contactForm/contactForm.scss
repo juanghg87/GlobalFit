@@ -71,6 +71,10 @@
 .a-contactPhone {
     color: wheat;
     text-decoration: none;
+
+    &:hover{
+        color: black;
+    }
 }
 
 .socialMedia {
@@ -137,7 +141,6 @@
     @include tablet {
         width: 80%;
         justify-content: center;
-        // margin-left: 0;
     }
 
     @include mobile {}

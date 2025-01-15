@@ -17,8 +17,8 @@ const ContactVideo = () => {
   const ref = useRef();
   const isInView = useInView(ref);
   return (
-    <motion.div className="videoBg2" ref={ref} variants={container} initial="hidden" animate={isInView} whileInView="visible" >
-      <video className='contact-video' src={videoContact} autoPlay loop muted  preload="auto" onLoad={lazy} />
+    <motion.div className="videoBg2" ref={ref} variants={container} initial="hidden" animate={isInView} whileInView="visible" aria-labelledby="niño nadando bajo el agua, entrenamiento previo" >
+      <video className='contact-video' src={videoContact} autoPlay loop muted  preload="auto" onLoad={lazy} aria-describedby="niño nadando bajo el agua, entrenamiento previo"/>
     </motion.div>
   )
 }

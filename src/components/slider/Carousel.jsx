@@ -2,10 +2,10 @@ import React from 'react';
 import { useState } from 'react';
 import Slider from 'react-slick';
 import "./carousel.scss";
-import gif1 from '../../Assets/giphy.gif';
+import gif1 from '../../Assets/iniciacion.gif';
 import gif2 from '../../Assets/deportivo.gif';
-import gif3 from '../../Assets/funcional.gif';
-import gif4 from '../../Assets/grupal.gif';
+import gif3 from '../../Assets/funcional2.gif';
+import gif4 from '../../Assets/grupal2.gif';
 import gif5 from '../../Assets/mayor.gif';
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 

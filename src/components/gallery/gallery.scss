@@ -73,6 +73,14 @@
   transform: scale(0);
   overflow: hidden;
   z-index: 999;
+
+  .no-button{
+    width: 0;
+    height: 0;
+    border:  none;
+    background-color: transparent;
+  }
+
 }
 
 .model.open {

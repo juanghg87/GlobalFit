@@ -38,7 +38,7 @@ const info = [
     {
         id: 5,
         src: petlover,
-        title: "¡Mamá perruna de Gato!",
+        title: "Petlover",
         info: "Soy una mujer apasionada por los animales, dedicada y cariñosa. Mamá perruna de Gato, un peludo que es mi compañero de vida y mi mayor alegría. Amo cuidar, proteger y aprender de ellos, porque cada animal es un mundo lleno de amor incondicional y lecciones únicas..",
 
     },
@@ -54,7 +54,7 @@ const AboutInfo = () => {
 
     return (
         <main className='general-container'>
-            <main className='container'>
+            <section className='container'>
                 <div className='info-img-container'>
                     <aside className='img-container-about'>
                         {selectedInfo &&
@@ -66,7 +66,6 @@ const AboutInfo = () => {
                                 playsInline
                             >
                             </video>
-                            // <img src={selectedInfo.src} alt="Selected topic" className='img-selected' />}
                         }
                     </aside>
                     <article className='info-container-about'>
@@ -77,13 +76,17 @@ const AboutInfo = () => {
                 </div>
                 <aside className='list-topics'>
 
-                    <button onClick={() => handleClick(1)} className='btn-about'>Profesional</button>
-                    <button onClick={() => handleClick(2)} className='btn-about'>Profesora</button>
-                    <button onClick={() => handleClick(3)} className='btn-about'>Entrenadora</button>
-                    <button onClick={() => handleClick(4)} className='btn-about'>Deportista</button>
-                    <button onClick={() => handleClick(5)} className='btn-about'>Petlover</button>
+                    {info.map(item => (
+                        <button
+                            key={item.id}
+                            onClick={() => handleClick(item.id)}
+                            className='btn-about'
+                        >
+                            {item.title.split(' ')[0]}
+                        </button>
+                    ))}
                 </aside>
-            </main>
+            </section>
         </main>
     );
 };

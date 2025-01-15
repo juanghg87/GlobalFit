@@ -15,40 +15,55 @@ import funcional from '../../Assets/funcional.gif';
 
 const Gallery = () => {
 
-    let images = [
-        { id: 1, src: gif1 },
-        { id: 7, src: gifgallery1 },
-        { id: 6, src: mayor },
-        { id: 2, src: estimulacion },
-        { id: 4, src: grupal },
-        { id: 12, src: gif2 },
-        { id: 9, src: gifgallery2 },
-        { id: 10, src: globalFit },
-        { id: 11, src: funcional },
-        { id: 8, src: gifgallery3 },
+    const images = [
+        { id: 1, src: gif1, alt: "Animación de ejercicios físicos dinámicos" },
+        { id: 7, src: gifgallery1, alt: "Demostración de técnica funcional" },
+        { id: 6, src: mayor, alt: "Programa diseñado para adultos mayores" },
+        { id: 2, src: estimulacion, alt: "Ejercicio de estimulación motriz" },
+        { id: 4, src: grupal, alt: "Entrenamiento en grupo al aire libre" },
+        { id: 12, src: gif2, alt: "Deportes y actividad física en equipo" },
+        { id: 9, src: gifgallery2, alt: "Sesión de entrenamiento personalizado" },
+        { id: 10, src: globalFit, alt: "Ejercicios con enfoque global fit" },
+        { id: 11, src: funcional, alt: "Ejercicios de fuerza funcional" },
+        { id: 8, src: gifgallery3, alt: "Animación de calentamiento físico" },
     ];
 
     const [model, setModel] = useState(false);
     const [tempSrc, setTempSrc] = useState('');
 
     const getImg = (src) => {
-        setTempSrc(src); 
-        setModel(true); 
+        setTempSrc(src);
+        setModel(true);
     };
 
     return (
         <section className='gallery-container'>
             <main className='layout'>
-                <motion.div className={model ? "model open" : "model"}>
-                    <img src={tempSrc} alt="" />
-                    <GrClose onClick={() => setModel(false)} className='img-model'/>
+                <motion.div
+                    className={model ? "model open" : "model"}
+                    role="dialog"
+                    aria-hidden={!model}
+                    aria-label="Vista ampliada de imagen"
+                >
+                    <img src={tempSrc}
+                        alt="Vista ampliada de imagen seleccionada"
+                        loading="lazy"
+                        className="img-expanded"
+                    />
+                    <button
+                        onClick={() => setModel(false)}
+                        aria-label="Cerrar vista ampliada"
+                        className='no-button'
+                    >
+                        <GrClose className="img-model"/>
+                    </button>
                 </motion.div>
 
                 {images.map((image) => (
                     <motion.div
                         className='img-container'
                         key={image.id}
-                        onClick={() => getImg(image.src)} 
+                        onClick={() => getImg(image.src)}
                     >
                         <img src={image.src} alt="" className='img-gallery' />
                     </motion.div>
