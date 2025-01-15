@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GlobalFit/static/css/main.6492a006.css",
-    "main.js": "/GlobalFit/static/js/main.2b3ca86b.js",
+    "main.css": "/GlobalFit/static/css/main.0f875634.css",
+    "main.js": "/GlobalFit/static/js/main.e5bc74c6.js",
     "static/js/488.c4112bf5.chunk.js": "/GlobalFit/static/js/488.c4112bf5.chunk.js",
     "static/media/video-presentation.MP4": "/GlobalFit/static/media/video-presentation.b7956bebb17d27ecf32c.MP4",
     "static/media/ser-competition2.mp4": "/GlobalFit/static/media/ser-competition2.800ad6bd4fa914d230a5.mp4",
@@ -16,6 +16,7 @@
     "static/media/ser-group2.mp4": "/GlobalFit/static/media/ser-group2.a38711d40747cdd2d865.mp4",
     "static/media/backgroundContacUs.mp4": "/GlobalFit/static/media/backgroundContacUs.d6ab75742a56f2d1a62e.mp4",
     "static/media/gif-gallery-1.gif": "/GlobalFit/static/media/gif-gallery-1.379a216f5cadcd436bf1.gif",
+    "static/media/iniciacion.gif": "/GlobalFit/static/media/iniciacion.b304903ff9fe0287393b.gif",
     "static/media/funcional.gif": "/GlobalFit/static/media/funcional.8aa838e6c8f96d83ab5f.gif",
     "static/media/deportivo.gif": "/GlobalFit/static/media/deportivo.ad5f2171694315a947f8.gif",
     "static/media/about-deportista.mp4": "/GlobalFit/static/media/about-deportista.a7dd8da33770876de969.mp4",
@@ -25,6 +26,8 @@
     "static/media/gif-gallery-2.gif": "/GlobalFit/static/media/gif-gallery-2.e2d277152157cf6ccaa8.gif",
     "static/media/gif-gallery-3.gif": "/GlobalFit/static/media/gif-gallery-3.367ee24b8dcab89c5e7c.gif",
     "static/media/mayor.gif": "/GlobalFit/static/media/mayor.825ed926ca1598679003.gif",
+    "static/media/funcional2.gif": "/GlobalFit/static/media/funcional2.def7b700802d8a8138fc.gif",
+    "static/media/grupal2.gif": "/GlobalFit/static/media/grupal2.0279efff433a3f982ce4.gif",
     "static/media/about-petlover.mp4": "/GlobalFit/static/media/about-petlover.71bf92e52dc8c9e76689.mp4",
     "static/media/about-entrenadora.mp4": "/GlobalFit/static/media/about-entrenadora.6a5e9945ff23db508dde.mp4",
     "static/media/about-profesora.mp4": "/GlobalFit/static/media/about-profesora.a2de5daabfb98b44eada.mp4",
@@ -35,12 +38,12 @@
     "static/media/slick.ttf": "/GlobalFit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/GlobalFit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GlobalFit/index.html",
-    "main.6492a006.css.map": "/GlobalFit/static/css/main.6492a006.css.map",
-    "main.2b3ca86b.js.map": "/GlobalFit/static/js/main.2b3ca86b.js.map",
+    "main.0f875634.css.map": "/GlobalFit/static/css/main.0f875634.css.map",
+    "main.e5bc74c6.js.map": "/GlobalFit/static/js/main.e5bc74c6.js.map",
     "488.c4112bf5.chunk.js.map": "/GlobalFit/static/js/488.c4112bf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6492a006.css",
-    "static/js/main.2b3ca86b.js"
+    "static/css/main.0f875634.css",
+    "static/js/main.e5bc74c6.js"
   ]
 }
