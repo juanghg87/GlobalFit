@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import "./gallery.scss";
 import { GrClose } from "react-icons/gr";
-import { motion } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import gif1 from '../../Assets/giphy.gif';
 import gif2 from '../../Assets/deportivo.gif';
 import mayor from '../../Assets/mayor.gif';
@@ -13,7 +13,10 @@ import grupal from '../../Assets/grupal.gif';
 import globalFit from '../../Assets/globalFit.gif';
 import funcional from '../../Assets/funcional.gif';
 
+
+
 const Gallery = () => {
+
 
     const images = [
         { id: 1, src: gif1, alt: "Animación de ejercicios físicos dinámicos" },
@@ -30,14 +33,15 @@ const Gallery = () => {
 
     const [model, setModel] = useState(false);
     const [tempSrc, setTempSrc] = useState('');
-
     const getImg = (src) => {
         setTempSrc(src);
         setModel(true);
     };
+    const ref = useRef(null);
+    const isInView = useInView(ref);
 
     return (
-        <section className='gallery-container'>
+        <motion.section className='gallery-container'>
             <main className='layout'>
                 <motion.div
                     className={model ? "model open" : "model"}
@@ -55,21 +59,26 @@ const Gallery = () => {
                         aria-label="Cerrar vista ampliada"
                         className='no-button'
                     >
-                        <GrClose className="img-model"/>
+                        <GrClose className="img-model" />
                     </button>
                 </motion.div>
 
-                {images.map((image) => (
+                {images.map((image, index) => (
                     <motion.div
                         className='img-container'
                         key={image.id}
                         onClick={() => getImg(image.src)}
                     >
-                        <img src={image.src} alt="" className='img-gallery' />
+                        <motion.img src={image.src} alt={image.alt} className='img-gallery'
+                            ref={ref}
+                            initial={{ opacity: 0, y: (index % 2 === 0 ? 100 : -100) }}
+                            animate={ isInView ? { opacity: 1, y: 0 } : {}} 
+                            transition={{ duration: 0.5 + index * 0.2 }} 
+                        />
                     </motion.div>
                 ))}
             </main>
-        </section>
+        </motion.section>
     );
 };
 

@@ -1,9 +1,36 @@
 import React, { useRef, useState } from 'react';
+import { motion } from 'framer-motion';
 import "./contactForm.scss";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaPhoneAlt } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
+
+const variantsInitial = {
+    initial: {
+        scale: 0.7,
+        opacity: 0
+    },
+    animate: {
+        scale: 1,
+        opacity: 1,
+        transition: {
+            duration: 2
+        }
+    }
+}
+
+const variantsInitialItems = {
+    initial: {
+        opacity: 0
+    },
+    animate: {
+        opacity: 1,
+        transition: {
+            duration: 5
+        }
+    }
+}
 
 const ContactForm = () => {
 
@@ -25,9 +52,17 @@ const ContactForm = () => {
 
 
     return (
-        <div className='mainContactForm'>
-            <div className='containerContactForm' >
-                <h2 className='titleContactForm' >Contáctanos</h2>
+        <motion.div className='mainContactForm'>
+            <motion.div className='containerContactForm'
+                initial="initial"
+                animate="animate"
+                variants={variantsInitial}
+            >
+                <motion.h2 className='titleContactForm'
+                    initial="initial"
+                    animate="animate"
+                    variants={variantsInitialItems}
+                >Contáctanos</motion.h2>
                 <span className='span-logoPhone'>
                     <img src="" alt="" />
                     <FaPhoneAlt className='logoPhone' />
@@ -38,7 +73,11 @@ const ContactForm = () => {
                     >( +57 )  3187474537
                     </a>
                 </span>
-                <form ref={formRef} onSubmit={sendEmail} action="">
+                <motion.form ref={formRef} onSubmit={sendEmail} action=""
+                    initial="initial"
+                    animate="animate"
+                    variants={variantsInitialItems}
+                >
                     <input
                         id="name"
                         type="text"
@@ -47,6 +86,10 @@ const ContactForm = () => {
                         name="name"
                         aria-required="true"
                         aria-label="Ingresa tu nombre"
+                        minlength="5"
+                        maxlength="50"
+                        pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"
+                        title="El nombre debe tener al menos 5 caracteres y solo puede contener letras y espacios."
                     />
                     <input
                         id="email"
@@ -56,6 +99,9 @@ const ContactForm = () => {
                         name="email"
                         aria-required="true"
                         aria-label="Ingresa tu correo electrónico"
+                        maxlength="100"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                        title="Ingresa un correo electrónico válido. Por ejemplo: usuario@dominio.com"
                     />
                     <textarea
                         id="message"
@@ -63,6 +109,10 @@ const ContactForm = () => {
                         placeholder="Mensaje"
                         name="message"
                         aria-label="Escribe tu mensaje"
+                        title="El texto debe contener entre 10 y 500 caracteres."
+                        minlength="10"
+                        maxlength="500"
+                        required
                     />
                     <button type="submit" aria-label="Enviar formulario">Enviar</button>
                     {error && (
@@ -83,7 +133,7 @@ const ContactForm = () => {
                             ¡Gracias por contactarnos!
                         </div>
                     )}
-                </form>
+                </motion.form>
                 <div className='socialMedia' >
                     <a
                         href="https://wa.me/+573187474537"
@@ -106,8 +156,8 @@ const ContactForm = () => {
                         <AiFillInstagram className="logoSocialMedia" aria-hidden="true" />
                     </a>
                 </div>
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     )
 }
 
